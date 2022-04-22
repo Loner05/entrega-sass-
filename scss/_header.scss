@@ -1,0 +1,104 @@
+
+
+
+
+
+  
+  .menu-box {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: $white;
+    width: 95%;
+    padding-top: 0;
+    height: 1fr;
+    border-radius: 0.5rem;
+  
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.5rem;
+    z-index: 999;
+    align-items: center;
+
+    img {
+        border-radius: 0.5rem;
+        width: 50%;
+        margin-right: 10px;
+        align-content: center;
+      }
+  } 
+
+  .menu{ 
+      
+    
+    ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0 0 20% 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    white-space: nowrap;
+  }
+
+  li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(88, 86, 86);
+  }
+
+  li {
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+
+  li a:hover {
+    color: black;
+    border-bottom: 3px solid $blue-minhaus;
+    transition: all 0.5s ease-in;
+    background-color: #f6f8fb;
+  }
+  li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(88, 86, 86);
+  }
+}
+
+  
+  
+#btn-menu {
+    justify-content: right;
+    display: none;
+  }
+  
+  .btn-hamburger {
+    display: none;
+    position: relative;
+    justify-content: right;
+  
+    border: 1px solid gray;
+    margin: 30px 20px 10px 15px;
+    z-index: 999;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin-top: 0.5px;
+    width: 30px;
+  }
+  
+  .btn-menu {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  
+  .img-btn-menu:hover {
+    cursor: pointer;
+    background: gray;
+  }
+  
